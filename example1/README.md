@@ -18,16 +18,16 @@ Run an image
 In an interactive mode and spit out output to the terminal
 
 ### --rm
-After shutting down, delete all the image you download/built
+After shutting down, delete the image you downloaded/built
 
 ### --name
 Call the image you created/downloaded `hnews-fetcher`
 
 ### -v
-Mount the folder `src` as a volumn at location `usr/src/fetcher`
+Mount the folder `src` as a volumn at location `/usr/src/fetcher`
 
 ### -w
-Change the image user working directory to `/usr/src/getcher`
+Change the image user working directory to `/usr/src/fetcher`
 
 ### php:7.4-cli
 The name of the image to download. We didn't create this image
